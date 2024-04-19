@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voa Rio</title>
+
+    <link rel="stylesheet" type="text/css" href="..//EstiloMolde.css">
+
+    <style>
+
+        fieldset {
+            border: 3px solid white;
+            padding-left: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 30px;
+        }
+
+        legend {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+
+        .labels {
+            color: white;
+            font-size: 20px;
+            display: block;
+            float: left;
+        }
+
+        .arrumarP1 {
+            margin-left: 150px;
+            width: 500px;
+        }
+
+        .arrumarP3 {
+            position: absolute;
+            margin-left: 700px;
+            margin-top: -255px;
+            width: 500px;
+            ;
+        }
+
+        input {
+            color: blue;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        label,
+        input {
+            width: 300px;
+            margin: 3px 0;
+        }
+
+        textarea {
+            color: blue;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .botao {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            margin-left: 580px;
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            font-weight: bold;
+            background-color: rgb(218, 206, 160);
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="div1">
+            <nav class="nav1">
+                <p>
+                    <a class="menu" href="index.html"> <b>Home</b></a>
+                    <a class="menu" href="historia.html"><b>Quem Somos</b></a>
+                    <a class="menu" href="galeria.html"><b>Fotos</b></a>
+                    <a class="menu" href="video.html"><b>Videos</b></a>
+                    <a class="menu" href="reserva.html"><b>Reservar Voo</b></a>
+                    <a class="menu" href="faleConosco.html"><b>Fale Conosco</b></a>
+                </p>
+            </nav>
+            <div class="div2">
+                <img src="../static/hang-gliding-99100_960_720.png" alt="Não carregou" height="100%"
+                    width="100%">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="div3">
+        </div>
+        <div class="div4" style="position: absolute;
+                    height: 710px;
+                    width: 1225px;
+                    margin-top: 500px;
+                    margin-left: 150px;
+                    ;">
+            <h1>Fale Conosco</h1>
+            <hr align="center" size="3px" width="80%" color="white">
+            <br>
+            <form action="">
+                <p class="Pbase">Tire suas dúvidas ou deixe aqui suas reclamações que iremos lhe responder por seu e-mail em até 24h.</p>
+                <p class="Pbase"> Obrigado!!!</p>
+                <br>
+                <fieldset style="height: 300px;">
+                    <legend>Deixe sua Mensagem:</legend>
+                    <div class="arrumarP1">
+                        <p> <label class="labels" for="inome2"><b>Nome Completo:</b></label>
+                            <input class="inputGrande" type="text" name="nome2" id="inome2">
+                        </p>
+                        <p><label class="labels" for="imail2"><b>E-mail:</b></label>
+                            <input class="inputGrande" type="email" name="mail2" id="imail2">
+                        </p>
+                        <p> <label class="labels" for="iAssunto"><b>Assunto:</b></label>
+                            <input class="inputGrande" type="text" name="Assunto" id="iAssunto">
+                        </p>
+                    </div>
+                    <div class="arrumarP3">
+                        <p><label class="labels" for="imensg"><b>Mensagem:</b></label>
+                            <textarea name="Comentario" id="" cols="42" rows="10" id="imensg"></textarea>
+                        </p>
+                    </div>
+                </fieldset>
+                <input class="botao" type="button" value="Enviar">
+
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <nav class="div5">
+            <a href="https://www.youtube.com"><img src="../static/youtube.png" alt="Náo carregou"
+                    height="50px" width="50px"></a>
+            <a href="https://www.instagram.com"><img src="../static/pngegg.png" alt="Náo carregou"
+                    height="50px" width="50px"></a>
+            <br>
+            <p class="Pfinal">
+                ASADELTA - Companhia Turistica / CNPJ: 00.000.000/0000-00 / Inscrição
+                Estadual: 00.000.00-0 / Endereço Rua Queda Livre, 000 - Rio de Janeiro, RJ - 000000-000 </p>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
